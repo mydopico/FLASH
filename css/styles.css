@@ -1,0 +1,52 @@
+body {      
+    background: rgb(48,48,48) !important;
+  }
+
+.navbar-brand {
+    margin-left: 10%;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #f19707;
+}
+
+.content {    
+    height: 80px;        
+}
+
+.content p {
+    font-size: 24px;  
+    margin-left: 10%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #282525; 
+    background: rgb(72,72,72);
+    box-shadow: 5px 10px 18px #555353;
+    border-radius: 30px;
+}
+
+span {
+    font-size: 18px;
+}
+
+#success p {
+    border-bottom: 3px solid #0ee415;   
+    color: #0ee415;       
+}
+
+#error p {       
+    border-bottom: 3px solid rgb(238, 75, 43);  
+    color: rgb(238, 75, 43);   
+}
+
+.fa-triangle-exclamation {
+    border: 3px solid rgb(238, 75, 43);
+    border-radius: 50%;
+    padding: 1%;    
+    }
+
+.fa-thumbs-up {
+    border: 3px solid #0ee415;
+    border-radius: 50%;
+    padding: 1%;   
+ }    
